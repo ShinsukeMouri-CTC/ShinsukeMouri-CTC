@@ -1,0 +1,8 @@
+[
+  {
+    "name": "2h9942-container-amazonlinux2023",
+    "image": "ubuntu:latest",
+    "essential": true,
+    "entryPoint": [      "tail",      "-F","/dev/null"    ]
+  }
+]
